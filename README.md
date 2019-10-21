@@ -23,11 +23,12 @@
 
 * requests库构造请求，返回网页数据
   
+
 &nbsp; 
 * 提取弹幕数据
     ![3.png](https://i.loli.net/2019/10/21/zqtylcUAS6ndNEu.png)
  &nbsp; 
- 
+
 * 根据分析，发现弹幕接口 Url 中mat后接的数字是每表示分钟 ，iid后接的是第几集的id号
 ![43.png](https://i.loli.net/2019/10/21/o9VXaOIuA4qvC5w.png)
 
@@ -40,7 +41,7 @@
     2. 记录下cookies，用requests请求返回网页数据
     ![41230.png](https://i.loli.net/2019/10/21/8dbhCQBL3lfqWIF.png)
      &nbsp; 
-     
+    
 * 提取集数id数据
 ![7.png](https://i.loli.net/2019/10/21/pOCm8c57LbyXktS.png)
  &nbsp; 
@@ -48,13 +49,7 @@
 * 到这里，弹幕数据就可以爬取下来了。我们可以将弹幕数据保存下来（我这里没有），最后是将弹幕数据做成词云
 ![wordcloud.png](https://i.loli.net/2019/10/21/cCKNvXmdnteEFfM.png)
  &nbsp; 
- 
+
 ### 数据清洗虽然我这里没有做，但是从刚才的词云可以看出，哈哈哈这些词没多大意义，可以洗掉的啦。这只是一只粗略，简陋的蜘蛛，还没有很好，还有很多地方可以优化。这里就留给大家自己优化学习喽。
 
 &nbsp; 
-### 完整项目代码在下面，GitHub项目地址：https://github.com/kokozh/YOKU_python
-
-
-
- 
-
